@@ -1,0 +1,80 @@
+{
+  "cars": {
+    "model": [
+      {
+        "name": "PRO RS3",
+        "engine": [0,1,2,3]
+      },
+      {
+        "name": "UBER RS2",
+        "engine": [0,1,2]
+      },
+      {
+        "name": "STANDARD",
+        "engine": [0,1]
+      },
+      {
+        "name": "WK",
+        "engine": [0]
+      }
+    ],
+  "engine": [
+    {
+      "id": 3,
+      "type": "5.2L 532BHP",      
+      "price": 400,
+      "gearbox": [0]
+    },
+    {
+      "id": 2,
+      "type": "4.2L 443BHP",      
+      "price": 300,
+      "gearbox": [0,1]
+    },
+    {
+      "id": 1,
+      "type": "3.6L 374BHP",      
+      "price": 200,
+      "gearbox": [0,1]
+    },
+    {
+      "id": 0,
+      "type": "2.0L 166BHP",      
+      "price": 100,
+      "gearbox": [1]
+    }
+    
+  ],
+  "gearbox": [
+    {
+      "id": 1,
+      "type": "Manual",
+      "price": 435
+    },
+    {
+      "id": 0,
+      "type": "Automatic",
+      "price": 555
+    }
+  ],
+  "colors": [
+    {
+      "color": "Red",
+      "price": 100
+    },
+    {
+      "color": "Gray",
+      "price": 200
+    },
+    {
+      "color": "Green",
+      "price": 300
+    },
+    {
+      "color": "Black",
+      "price": 400
+    }
+  ]
+  }
+  
+}

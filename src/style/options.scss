@@ -1,0 +1,52 @@
+.configuration-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .options-wrapper {
+
+        .button-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            @media(min-width: 780px) {
+                justify-content: right;
+            }
+        }
+
+        .btn.btn-outline-dark:focus {
+            background-color: #343a40;
+            border-color: #343a40;
+            color: #fff;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            margin: 5px;
+            font-size: 0.9rem;
+            width: 90px;
+        }
+
+        .color-button button {
+            height: 35.6px;
+        }
+    }
+
+    .clear-button-wrapper {
+        display:flex;
+        justify-content: center;
+        
+        button {
+            margin-left: 15px;
+        }
+
+        @media(min-width: 780px) {
+            justify-content: right;
+        }
+    }
+}

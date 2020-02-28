@@ -1,0 +1,41 @@
+.configuration-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.summary-wrapper {  
+
+    .summary {
+        background-color: #000;
+        border-radius: 4px;
+        width: 200px;
+        height: 325px;
+        margin: 0 auto;
+    }
+
+    p {
+        color: #fff;
+        text-align: right;
+        margin: 15px 20px 10px 20px;
+        padding-top: 20px;
+    }
+
+    span:nth-child(2) {
+        float: right;
+    }
+}
+
+.car-icon-wrapper {
+    background-color: #fff;
+    margin: 20px 20px 10px 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-wrapper {
+    margin: 0 20px 10px 20px;
+    color: #fff;
+    padding-top: 25px;
+}
